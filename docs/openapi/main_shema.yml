@@ -8,13 +8,5 @@ info:
 schemes:
   - "https"
   - "http"
-paths:
-  # Accounts
-  /users/{user_id}/reminders/:
-    $ref: "./reminders/reminder_list.yml"
-
-  # Reminders
-  /reminders/{id}/:
-    $ref: "./reminders/reminder.yml"
-  /reminders/:
-    $ref: "./reminders/create_reminder.yml"
+# paths:
+# Accounts

@@ -1,4 +1,4 @@
-env/
+venv/
 *.egg-info
 *.pot
 *.py[co]
